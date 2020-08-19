@@ -1,0 +1,12 @@
+.animatedText {
+  animation: fadeAndScale .5s ease-in;
+}
+
+@keyframes fadeAndScale {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
